@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sodhi Family | Official Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Georgia", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f6fa;
+      color: #333;
+    }
+
+    /* Navbar */
+    nav {
+      background: linear-gradient(90deg, #2a5298, #1e3c72);
+      padding: 16px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 4px solid #bfa76f;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    nav h1 {
+      color: white;
+      font-size: 26px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: 700;
+    }
+
+    /* Layout */
+    .container {
+      display: grid;
+      grid-template-areas:
+        "header"
+        "menu"
+        "content";
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 25px;
+      max-width: 1100px;
+      margin: 30px auto;
+      background-color: #ffffff;
+      border-radius: 15px;
+      box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      grid-area: header;
+      text-align: center;
+      border-bottom: 2px solid #e0e0e0;
+      padding-bottom: 15px;
+    }
+
+    .img-box {
+      display: inline-block;
+      margin: 8px;
+    }
+
+    .header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #2a5298;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .header img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(42, 82, 152, 0.3);
+    }
+
+    .caption {
+      font-size: 15px;
+      margin-top: 5px;
+      color: #1e3c72;
+      font-weight: 600;
+    }
+
+    .header h1 {
+      color: #1e3c72;
+      margin-top: 10px;
+      font-size: 28px;
+    }
+
+    .header h2 {
+      color: #444;
+      font-size: 20px;
+      font-weight: 500;
+    }
+
+    .menu {
+      grid-area: menu;
+      background: #f0f4ff;
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 5px solid #2a5298;
+    }
+
+    .menu h1 {
+      color: #1e3c72;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    .menu p {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    .content {
+      grid-area: content;
+      padding: 20px;
+    }
+
+    .content h3 {
+      color: #2a5298;
+      font-size: 22px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #bfa76f;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .content p {
+      line-height: 1.8;
+      color: #333;
+      font-size: 16px;
+      text-align: justify;
+    }
+
+    .kol {
+      color: #2a5298;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1>SODHI HERITAGE</h1>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container">
+    <div class="header">
+
+      <!-- Family Logo at TOP as before -->
+      <div class="img-box">
+        <img src="logo family ..JPG" alt="Family Logo">
+        <div class="caption">Family Logo</div>
+      </div>
+
+      <!-- Photo 2 -->
+      <div class="img-box">
+        <img src="imgguru.jpeg" alt="Guru Image">
+        <div class="caption">Guru Jaswant Sodhi</div>
+      </div>
+
+      <!-- Photo 3 -->
+      <div class="img-box">
+        <img src="imgguru2.jpeg" alt="Guru Image">
+        <div class="caption">Guru Atamjit Singh Tikka</div>
+      </div>
+
+      <!-- Photo 4 -->
+      <div class="img-box">
+        <img src="imgguru3.jpeg" alt="Guru Image">
+        <div class="caption">Guru Karan Sher Sodhi</div>
+      </div>
+
+      <!-- Photo 5 -->
+      <div class="img-box">
+        <img src="imgguru9.jpeg" alt="Guru Image">
+        <div class="caption">Guru Rustam Sher Sodhi</div>
+      </div>
+
+      <!-- Photo 6 -->
+      <div class="img-box">
+        <img src="imgguru10.jpeg" alt="Guru Image">
+        <div class="caption">Moksh Sher Sodhi</div>
+      </div>
+
+      <h1>SODHI HERITAGE</h1>
+      <h2>Sodhi Family Of Guru Har Sahai</h2>
+    </div>
+
+    <div class="menu">
+      <h1>SODHI FAMILY</h1>
+      <p>Direct Descendants of the 4th Sikh Guru, Shri Guru Ram Das Ji.</p>
+    </div>
+
+    <div class="content">
+      <h3>Legacy of the Sodhi Family</h3>
+
+      <h4 class="kol">Sodhi Family of Guru Har Sahai</h4>
+      <p>
+        The Sodhi family of Guru Har Sahai belongs to the direct lineage of Guru Ram Das Ji, the fourth Sikh Guru. The
+        family has carried forward the legacy of devotion, service, and faith through generations. They are holding an
+        annual mela every year, bringing together devotees from different cities across India to celebrate the spiritual
+        heritage and teachings of the Sikh Gurus.
+      </p>
+    </div>
+  </div>
+</body>
+
+</html>
